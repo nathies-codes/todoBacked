@@ -1,7 +1,7 @@
 import mongoose from "mongoose"
 import { maxLength, minLength } from "zod";
 
-mongoose.connect("mongodb+srv://nathies:rINzKpDmPyZoBtdo@cluster1.euqoptt.mongodb.net/jan012026");
+mongoose.connect("");
 
 const titleSchmea = {
     type: String,
